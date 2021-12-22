@@ -2,38 +2,55 @@
     display: flex;
     flex-direction:column;
     flex-wrap:wrap;
-    height:500px;
-    width: 600px;
+    height:700px;
+    width: 800px;
+    justify-content: flex-start;
+    
 }
+
 
 .header{
     background-color: rgb(90, 197, 230);
     height: 10%;
     display: flex;
-    align-content:center;
+    align-items:center;
+    justify-content: flex-start;
+    
 }
 
 .row{
     display: flex;
     height: 50%;
     width: 100%;
+    justify-content: flex-start;
 }
+
+.row>div, .header, .footer{
+    padding:10px;
+}
+
 .navigation{
     background-color: rgb(226, 161, 41);
     width: 20%;
+    
 }
 
 .article{
     background-color: rgb(235, 203, 100);
     width: 50%;
+    
 }
 
 .aside{
     background-color: rgb(240, 230, 176);
     width: 30%;
+    
 }
 
 .footer{
     background-color: rgb(43, 146, 177);
     height: 10%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
 }
